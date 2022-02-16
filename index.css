@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+    overflow:auto;
+    background-image: url('crypto4.jpg');
+    /* background-size: cover; */
+}
+
+h1 {
+    font-size: 50px;
+    text-align: start;
+    color: ivory;
+    font-family: 'Raleway', sans-serif;
+}
+
+#navbar {
+    width: 100%;
+    height: 70px;
+    /* background: white; */
+    display: flex;
+    justify-content: space-between;
+    place-items: center
+}
+
+nav {
+    background-color: transparent;
+}
+
+#coinsButton {
+    font-size: 30px;
+    color: ivory;
+}
+
+#board {
+    display: flex;
+    flex-flow: wrap;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    #board {
+     display: flex;
+     flex-flow: column; 
+      }
+  
+      #navbar {
+          display: flex;
+          flex-flow: column;
+          justify-items: center;
+      }
+      #card {
+        width: 90%;
+    }
+  }
+
+
+.about {
+    background: white;
+      min-height: 80vh;
+      width: 100%;
+      background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7),
+          rgba(255, 255, 255, 0.3));
+      border-radius: 2rem;
+      z-index: 3;
+      backdrop-filter: blur(2rem);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      font-family: initial;
+      position: relative;
+}
+
+span {
+    color: brown;
+}
+.text {
+   position: absolute;
+   height: 300px;
+   width: 50%;
+   margin-top: 150px;
+}
+
+
+#delete-btn {
+    background: rgb(223, 102, 102);
+}
+
+.list {
+   display: flex;
+   justify-content: space-between;
+   
+}
+#filter {
+    background: transparent;
+    font-size: large;
+    margin-left: 10px;
+}
+
+
+#dollar {
+    color: green;
+}
+
+#euro {
+    color: blue;
+}
+
+#shekel {
+    color: blue;
+}
+
+#card {
+    padding: 10px;
+    width: 33%;
+    /* box-shadow: black 20px 10px 50px; */
+    opacity: 0.8;
+}
+
+#addBtn {
+    margin-left: 280px;
+    background: lightgreen;
+}
+
+
+
+ 
+
